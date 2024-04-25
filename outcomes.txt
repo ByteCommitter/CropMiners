@@ -1,0 +1,170 @@
+RandomForest Classification Report:
+Fitting 3 folds for each of 540 candidates, totalling 1620 fits
+Model Accuracy: 0.9931818181818182
+Classification Report: 
+              precision    recall  f1-score   support
+
+       apple       1.00      1.00      1.00        23
+      banana       1.00      1.00      1.00        21
+   blackgram       1.00      1.00      1.00        20
+    chickpea       1.00      1.00      1.00        26
+     coconut       1.00      1.00      1.00        27
+      coffee       1.00      1.00      1.00        17
+      cotton       1.00      1.00      1.00        17
+      grapes       1.00      1.00      1.00        14
+        jute       0.92      1.00      0.96        23
+ kidneybeans       1.00      1.00      1.00        20
+      lentil       0.92      1.00      0.96        11
+       maize       1.00      1.00      1.00        21
+       mango       1.00      1.00      1.00        19
+   mothbeans       1.00      0.96      0.98        24
+    mungbean       1.00      1.00      1.00        19
+   muskmelon       1.00      1.00      1.00        17
+      orange       1.00      1.00      1.00        14
+      papaya       1.00      1.00      1.00        23
+  pigeonpeas       1.00      1.00      1.00        23
+ pomegranate       1.00      1.00      1.00        23
+        rice       1.00      0.89      0.94        19
+  watermelon       1.00      1.00      1.00        19
+
+    accuracy                           0.99       440
+   macro avg       0.99      0.99      0.99       440
+weighted avg       0.99      0.99      0.99       440
+
+Cross-validation scores: [0.98863636 1.         0.99147727 0.99715909 0.99715909]
+Average cross-validation score: 0.9948863636363636
+
+RandomForest Classification Report:
+Model Accuracy: 0.9931818181818182
+Classification Report: 
+              precision    recall  f1-score   support
+
+       apple       1.00      1.00      1.00        23
+      banana       1.00      1.00      1.00        21
+   blackgram       1.00      1.00      1.00        20
+    chickpea       1.00      1.00      1.00        26
+     coconut       1.00      1.00      1.00        27
+      coffee       1.00      1.00      1.00        17
+      cotton       1.00      1.00      1.00        17
+      grapes       1.00      1.00      1.00        14
+        jute       0.92      1.00      0.96        23
+ kidneybeans       1.00      1.00      1.00        20
+      lentil       0.92      1.00      0.96        11
+       maize       1.00      1.00      1.00        21
+       mango       1.00      1.00      1.00        19
+   mothbeans       1.00      0.96      0.98        24
+    mungbean       1.00      1.00      1.00        19
+   muskmelon       1.00      1.00      1.00        17
+      orange       1.00      1.00      1.00        14
+      papaya       1.00      1.00      1.00        23
+  pigeonpeas       1.00      1.00      1.00        23
+ pomegranate       1.00      1.00      1.00        23
+        rice       1.00      0.89      0.94        19
+  watermelon       1.00      1.00      1.00        19
+
+    accuracy                           0.99       440
+   macro avg       0.99      0.99      0.99       440
+weighted avg       0.99      0.99      0.99       440
+
+GBM Model accuracy:
+Fitting 3 folds for each of 9 candidates, totalling 27 fits
+Model Accuracy: 0.9818181818181818
+
+
+
+GBM Classification Report: 
+              precision    recall  f1-score   support
+
+       apple       1.00      1.00      1.00        23
+      banana       1.00      1.00      1.00        21
+   blackgram       1.00      1.00      1.00        20
+    chickpea       1.00      1.00      1.00        26
+     coconut       1.00      1.00      1.00        27
+      coffee       1.00      1.00      1.00        17
+      cotton       0.94      1.00      0.97        17
+      grapes       1.00      1.00      1.00        14
+        jute       0.85      0.96      0.90        23
+ kidneybeans       1.00      1.00      1.00        20
+      lentil       0.92      1.00      0.96        11
+       maize       1.00      0.95      0.98        21
+       mango       1.00      1.00      1.00        19
+   mothbeans       0.96      0.96      0.96        24
+    mungbean       1.00      1.00      1.00        19
+   muskmelon       1.00      1.00      1.00        17
+      orange       1.00      1.00      1.00        14
+      papaya       1.00      1.00      1.00        23
+  pigeonpeas       1.00      0.96      0.98        23
+ pomegranate       1.00      1.00      1.00        23
+        rice       0.94      0.79      0.86        19
+  watermelon       1.00      1.00      1.00        19
+
+    accuracy                           0.98       440
+   macro avg       0.98      0.98      0.98       440
+weighted avg       0.98      0.98      0.98       440
+
+The recommended crop to grow according to GBM is: chickpea
+SVM Classification Report: 
+              precision    recall  f1-score   support
+
+       apple       1.00      1.00      1.00        23
+      banana       1.00      1.00      1.00        21
+   blackgram       0.91      1.00      0.95        20
+    chickpea       1.00      1.00      1.00        26
+     coconut       1.00      1.00      1.00        27
+      coffee       1.00      0.94      0.97        17
+      cotton       0.85      1.00      0.92        17
+      grapes       1.00      1.00      1.00        14
+        jute       0.77      1.00      0.87        23
+ kidneybeans       0.95      1.00      0.98        20
+      lentil       0.79      1.00      0.88        11
+       maize       1.00      0.86      0.92        21
+       mango       1.00      1.00      1.00        19
+   mothbeans       1.00      0.88      0.93        24
+    mungbean       1.00      1.00      1.00        19
+   muskmelon       1.00      1.00      1.00        17
+      orange       1.00      1.00      1.00        14
+      papaya       1.00      0.96      0.98        23
+  pigeonpeas       1.00      0.87      0.93        23
+ pomegranate       1.00      1.00      1.00        23
+        rice       0.93      0.68      0.79        19
+  watermelon       1.00      1.00      1.00        19
+
+    accuracy                           0.96       440
+   macro avg       0.96      0.96      0.96       440
+weighted avg       0.97      0.96      0.96       440
+
+The recommended crop to grow according to SVM is: chickpea
+The recommended crop to grow according to RandomForest is: chickpea
+
+Model Accuracy: 0.9613636363636363
+
+
+Random Forest Classification Report: 
+              precision    recall  f1-score   support
+
+       apple       1.00      1.00      1.00        23
+      banana       1.00      1.00      1.00        21
+   blackgram       1.00      1.00      1.00        20
+    chickpea       1.00      1.00      1.00        26
+     coconut       1.00      1.00      1.00        27
+      coffee       1.00      1.00      1.00        17
+      cotton       1.00      1.00      1.00        17
+      grapes       1.00      1.00      1.00        14
+        jute       0.92      1.00      0.96        23
+ kidneybeans       1.00      1.00      1.00        20
+      lentil       0.92      1.00      0.96        11
+       maize       1.00      1.00      1.00        21
+       mango       1.00      1.00      1.00        19
+   mothbeans       1.00      0.96      0.98        24
+    mungbean       1.00      1.00      1.00        19
+   muskmelon       1.00      1.00      1.00        17
+      orange       1.00      1.00      1.00        14
+      papaya       1.00      1.00      1.00        23
+  pigeonpeas       1.00      1.00      1.00        23
+ pomegranate       1.00      1.00      1.00        23
+        rice       1.00      0.89      0.94        19
+  watermelon       1.00      1.00      1.00        19
+
+    accuracy                           0.99       440
+   macro avg       0.99      0.99      0.99       440
+weighted avg       0.99      0.99      0.99       440
