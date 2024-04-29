@@ -136,7 +136,7 @@ weighted avg       0.97      0.96      0.96       440
 The recommended crop to grow according to SVM is: chickpea
 The recommended crop to grow according to RandomForest is: chickpea
 
-Model Accuracy: 0.9613636363636363
+SVM Model Accuracy: 0.9613636363636363
 
 
 Random Forest Classification Report: 
