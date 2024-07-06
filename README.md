@@ -5,7 +5,6 @@
 This repository implements various classification methods to determine the best crops that can be grown in different regions of India based on given conditions. The project focuses on utilizing machine learning algorithms to predict suitable crops for specific environmental factors and agricultural conditions.
 
 ## Methods Used
-### Pre-Processing of Data:
 - **SVM (Support Vector Method)**: Quickest Method
 - **PCA (Principal Component Analysis)**: Reduces Dimensionality
 - **GBM (Gradient Boosting Machine)**: Best Of Both Worlds
